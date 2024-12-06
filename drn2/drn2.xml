@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/ekter/Documents/drn/drn2/drn2.kicad_sch</source>
+    <date>2024-11-13T13:24:11+0100</date>
+    <tool>Eeschema 8.0.6-8.0.6-0~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>drn2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="3V3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fad3bc4e-1083-4614-8f46-15e649fdbccf</tstamps>
+    </comp>
+    <comp ref="5V1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e166756-5030-4d21-b3c3-5ac63104cedb</tstamps>
+    </comp>
+    <comp ref="ACCGYRO1">
+      <value>LSM6</value>
+      <footprint>Package_LGA:LGA-12_2x2mm_P0.5mm</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lsm303c.pdf</datasheet>
+      <description>I2C/SPI, 3D Accelerometer and 3D Magnetometer</description>
+      <fields>
+        <field name="LCSC Part">C94048</field>
+        <field name="Footprint">Package_LGA:LGA-12_2x2mm_P0.5mm</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/lsm303c.pdf</field>
+        <field name="Description">I2C/SPI, 3D Accelerometer and 3D Magnetometer</field>
+      </fields>
+      <libsource lib="Sensor_Motion" part="LSM303C" description="I2C/SPI, 3D Accelerometer and 3D Magnetometer"/>
+      <property name="LCSC Part" value="C94048"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="Accelerometer Magnetometer MEMS"/>
+      <property name="ki_fp_filters" value="LGA*2x2mm*P0.5mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25e4b497-bac0-4c67-a5b7-90b24d10e5e0</tstamps>
+    </comp>
+    <comp ref="ACCMAG1">
+      <value>LSM303</value>
+      <footprint>Package_LGA:LGA-12_2x2mm_P0.5mm</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lsm303c.pdf</datasheet>
+      <description>I2C/SPI, 3D Accelerometer and 3D Magnetometer</description>
+      <fields>
+        <field name="LCSC Part">C126671</field>
+        <field name="Footprint">Package_LGA:LGA-12_2x2mm_P0.5mm</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/lsm303c.pdf</field>
+        <field name="Description">I2C/SPI, 3D Accelerometer and 3D Magnetometer</field>
+      </fields>
+      <libsource lib="Sensor_Motion" part="LSM303C" description="I2C/SPI, 3D Accelerometer and 3D Magnetometer"/>
+      <property name="LCSC Part" value="C126671"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="Accelerometer Magnetometer MEMS"/>
+      <property name="ki_fp_filters" value="LGA*2x2mm*P0.5mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4ba49fc-ff46-417c-aacb-175616fc8598</tstamps>
+    </comp>
+    <comp ref="BAT1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39ac5fed-acf1-4c25-a3eb-cd838a4bb969</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LEDG</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="LCSC Part">C965806</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part" value="C965806"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ce8a54b-df6c-40ed-9f28-6e31c2ee4b10</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LEDY</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="LCSC Part">C965802</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part" value="C965802"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>078fa1ee-6890-4fc5-89db-12734a00598f</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LEDR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="LCSC Part">C965798</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part" value="C965798"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22ee427d-ea60-4dc8-80ce-19a149756437</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LEDI</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="LCSC Part">C412284</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part" value="C412284"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60d156f1-bf01-4573-8ff7-343768d2ff5c</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LEDI</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="LCSC Part">C412284</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part" value="C412284"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62227294-cd7f-416c-b461-1553a0f43c46</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LEDI</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="LCSC Part">C412284</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part" value="C412284"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce4e5196-d1ab-422d-9c27-674a183950f1</tstamps>
+    </comp>
+    <comp ref="G1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09699a80-def3-4307-81a0-cfff1b480bff</tstamps>
+    </comp>
+    <comp ref="GND5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f01dd42-f2b6-4941-a1a9-b10a3d7e0db5</tstamps>
+    </comp>
+    <comp ref="GND6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e9f48a0-91c5-47e3-a97e-5d02d578040a</tstamps>
+    </comp>
+    <comp ref="GND7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7310762-6ddd-476e-8b40-c1f805f35243</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e21e1939-cb77-4249-8714-55e60b8f0026</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Raspberry_Pi_2_3</value>
+      <footprint>Module:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles</footprint>
+      <datasheet>https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf</datasheet>
+      <description>expansion header for Raspberry Pi 2 &amp; 3</description>
+      <fields>
+        <field name="JLCPCB BOM">1</field>
+        <field name="LCSC Part">C2977589</field>
+        <field name="Footprint">Module:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles</field>
+        <field name="Datasheet">https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf</field>
+        <field name="Description">expansion header for Raspberry Pi 2 &amp; 3</field>
+      </fields>
+      <libsource lib="Connector" part="Raspberry_Pi_2_3" description="expansion header for Raspberry Pi 2 &amp; 3"/>
+      <property name="JLCPCB BOM" value="1"/>
+      <property name="LCSC Part" value="C2977589"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="raspberrypi gpio"/>
+      <property name="ki_fp_filters" value="PinHeader*2x20*P2.54mm*Vertical* PinSocket*2x20*P2.54mm*Vertical*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7f8ddaf-e7d0-456c-905d-16352c0a1d41</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1253371-4aa3-46eb-b170-dfd583b9081b</tstamps>
+    </comp>
+    <comp ref="J3_F1_BEC_OUT1">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="LCSC Part">C98733</field>
+        <field name="Footprint">Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="LCSC Part" value="C98733"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f59a06f-1039-41d2-a7e3-818a80b8653d</tstamps>
+    </comp>
+    <comp ref="J3_F2_BAT1">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="LCSC Part">C98733</field>
+        <field name="Footprint">Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="" part="Conn_01x02_Pin_1" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="LCSC Part" value="C98733"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3663f8a-fb14-4f89-b0bb-bd3ed27860ef</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Field6"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Field6" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c4dcb28-acfb-4b59-8bc1-8bc99d3e00d7</tstamps>
+    </comp>
+    <comp ref="J4_M0_MOT0">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="LCSC Part">C98734</field>
+        <field name="Footprint">Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="LCSC Part" value="C98734"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>618f9af8-33a5-489a-bd1f-eebeb52407ac</tstamps>
+    </comp>
+    <comp ref="J4_M1_MOT1">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="LCSC Part">C98734</field>
+        <field name="Footprint">Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="LCSC Part" value="C98734"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b03f487-74b6-477b-a0c2-fd9f044aa17f</tstamps>
+    </comp>
+    <comp ref="J4_M2_MOT2">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="LCSC Part">C98734</field>
+        <field name="Footprint">Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="LCSC Part" value="C98734"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a292476-4adc-42cf-8e8f-dd299a6aeca5</tstamps>
+    </comp>
+    <comp ref="J4_M3_MOT3">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="LCSC Part">C98734</field>
+        <field name="Footprint">Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="LCSC Part" value="C98734"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed16f359-339b-48e5-934f-838cd9dd3730</tstamps>
+    </comp>
+    <comp ref="J4_M4_BEC_IN1">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="LCSC Part">C98734</field>
+        <field name="Footprint">Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="LCSC Part" value="C98734"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae5f7b77-0530-49a5-8c72-75d7ed26a7a6</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x12_Socket</value>
+      <footprint>Connector_JST:JST_XH_B12B-XH-AM_1x12_P2.50mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x12, script generated</description>
+      <fields>
+        <field name="LCSC Part">C157941</field>
+        <field name="Footprint">Connector_JST:JST_XH_B12B-XH-AM_1x12_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x12, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x12_Socket" description="Generic connector, single row, 01x12, script generated"/>
+      <property name="LCSC Part" value="C157941"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86f424de-b040-4890-bf47-965f19982dec</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x08_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <fields>
+        <field name="LCSC Part">C6332201</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x08, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Socket" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="LCSC Part" value="C6332201"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87a29fbd-409b-4356-a953-656f0637641d</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6571492c-c81d-4124-8230-524fc40d9e16</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ad1ab38-2ef7-49a3-8e50-417a2e1ee250</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6915f30-5939-4c75-a501-1d571583360c</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b66da017-465c-43da-862e-59c50be91ff7</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf7bd82a-e054-4987-aa17-23c48453d291</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>463cb522-315e-45ea-95dc-74cee3fc4f67</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>beec67cd-3436-4388-a5f8-000bc4fe3a1d</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>047b2ed7-993c-4545-ab61-02eae5ed089d</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e2e49c2-ab01-4ca9-9fb1-f28ce4b648b7</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="LCSC Part">C49257</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C49257"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5f11005-11e6-432a-aac7-843ad0852747</tstamps>
+    </comp>
+    <comp ref="MOT0">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93e569da-13d6-40c6-9adf-7d02723ad88e</tstamps>
+    </comp>
+    <comp ref="MOT1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b143c59c-90f4-41fa-97d4-69e90b26c40b</tstamps>
+    </comp>
+    <comp ref="MOT2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e20853d7-efca-490b-8473-8e0980c53b91</tstamps>
+    </comp>
+    <comp ref="MOT3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>243b2753-5b9e-4fae-bb55-eef03f0648e8</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>130</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC Part">C22796</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C22796"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f6577e7-4110-4009-a974-fe76e4b866e6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>130</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC Part">C22796</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C22796"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34ac97b7-03e6-47c9-ae3a-743be9ccb88f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>130</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC Part">C22796</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C22796"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e14e6354-13a4-4bef-b84e-9fd3879de021</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>49.9</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC Part">C23185</field>
+        <field name="JLCPCB BOM">0 ou 1</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C23185"/>
+      <property name="JLCPCB BOM" value="0 ou 1"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54a54617-0b7b-4268-a3cd-3103ed5334e0</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>49.9</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC Part">C23185</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C23185"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2a97661-be0f-40ba-9d5a-1cd561b330f2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>49.9</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC Part">C23185</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C23185"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>132b0cda-5138-40ec-99c9-58aefbaefb60</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c47d705a-49b0-419c-9871-b195a0ba6523</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="drn2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9889289-4582-4bab-81f2-eeb60c09b235</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Conn_01x02_Pin_1">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Socket">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Socket">
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x08, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x12_Socket">
+      <description>Generic connector, single row, 01x12, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x12_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x12, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Raspberry_Pi_2_3">
+      <description>expansion header for Raspberry Pi 2 &amp; 3</description>
+      <docs>https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf</docs>
+      <footprints>
+        <fp>PinHeader*2x20*P2.54mm*Vertical*</fp>
+        <fp>PinSocket*2x20*P2.54mm*Vertical*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Raspberry_Pi_2_3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf</field>
+        <field name="Description">expansion header for Raspberry Pi 2 &amp; 3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="5V" type="power_in"/>
+        <pin num="3" name="SDA/GPIO2" type="bidirectional"/>
+        <pin num="4" name="5V" type="passive"/>
+        <pin num="5" name="SCL/GPIO3" type="bidirectional"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GCLK0/GPIO4" type="bidirectional"/>
+        <pin num="8" name="GPIO14/TXD" type="bidirectional"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GPIO15/RXD" type="bidirectional"/>
+        <pin num="11" name="GPIO17" type="bidirectional"/>
+        <pin num="12" name="GPIO18/PWM0" type="bidirectional"/>
+        <pin num="13" name="GPIO27" type="bidirectional"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="GPIO22" type="bidirectional"/>
+        <pin num="16" name="GPIO23" type="bidirectional"/>
+        <pin num="17" name="3V3" type="passive"/>
+        <pin num="18" name="GPIO24" type="bidirectional"/>
+        <pin num="19" name="MOSI0/GPIO10" type="bidirectional"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="MISO0/GPIO9" type="bidirectional"/>
+        <pin num="22" name="GPIO25" type="bidirectional"/>
+        <pin num="23" name="SCLK0/GPIO11" type="bidirectional"/>
+        <pin num="24" name="~{CE0}/GPIO8" type="bidirectional"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="~{CE1}/GPIO7" type="bidirectional"/>
+        <pin num="27" name="ID_SD/GPIO0" type="bidirectional"/>
+        <pin num="28" name="ID_SC/GPIO1" type="bidirectional"/>
+        <pin num="29" name="GCLK1/GPIO5" type="bidirectional"/>
+        <pin num="30" name="GND" type="passive"/>
+        <pin num="31" name="GCLK2/GPIO6" type="bidirectional"/>
+        <pin num="32" name="PWM0/GPIO12" type="bidirectional"/>
+        <pin num="33" name="PWM1/GPIO13" type="bidirectional"/>
+        <pin num="34" name="GND" type="passive"/>
+        <pin num="35" name="GPIO19/MISO1" type="bidirectional"/>
+        <pin num="36" name="GPIO16" type="bidirectional"/>
+        <pin num="37" name="GPIO26" type="bidirectional"/>
+        <pin num="38" name="GPIO20/MOSI1" type="bidirectional"/>
+        <pin num="39" name="GND" type="passive"/>
+        <pin num="40" name="GPIO21/SCLK1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="LSM303C">
+      <description>I2C/SPI, 3D Accelerometer and 3D Magnetometer</description>
+      <docs>www.st.com/resource/en/datasheet/lsm303c.pdf</docs>
+      <footprints>
+        <fp>LGA*2x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LSM303C</field>
+        <field name="Footprint">Package_LGA:LGA-12_2x2mm_P0.5mm</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/lsm303c.pdf</field>
+        <field name="Description">I2C/SPI, 3D Accelerometer and 3D Magnetometer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL/SPC" type="input"/>
+        <pin num="2" name="CS_XL" type="input"/>
+        <pin num="3" name="CS_MAG" type="input"/>
+        <pin num="4" name="SDA/SDI/SDO" type="bidirectional"/>
+        <pin num="5" name="C1" type="passive"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="INT_MAG" type="output"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="VDDIO" type="power_in"/>
+        <pin num="11" name="DRDY_MAG" type="output"/>
+        <pin num="12" name="INT_XL" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>/usr/share/kicad/symbols//Sensor_Motion.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3.3">
+      <node ref="3V3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="ACCGYRO1" pin="10" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="ACCGYRO1" pin="9" pinfunction="VDD" pintype="power_in"/>
+      <node ref="ACCMAG1" pin="10" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="ACCMAG1" pin="9" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J2" pin="1" pinfunction="3V3" pintype="power_in"/>
+      <node ref="J2" pin="17" pinfunction="3V3" pintype="passive"/>
+    </net>
+    <net code="2" name="/5V">
+      <node ref="5V1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="5V" pintype="power_in"/>
+      <node ref="J2" pin="4" pinfunction="5V" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3_F1_BEC_OUT1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/11.1">
+      <node ref="BAT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3_F2_BAT1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4_M0_MOT0" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4_M1_MOT1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4_M2_MOT2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4_M3_MOT3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4_M4_BEC_IN1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="4" name="/GND">
+      <node ref="ACCGYRO1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="ACCGYRO1" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="ACCMAG1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="ACCMAG1" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="GND5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="GND6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="GND7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J16" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="30" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="34" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="39" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3_F1_BEC_OUT1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3_F2_BAT1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4_M0_MOT0" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4_M1_MOT1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4_M2_MOT2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4_M3_MOT3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4_M4_BEC_IN1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(ACCGYRO1-SCL{slash}SPC)">
+      <node ref="ACCGYRO1" pin="1" pinfunction="SCL/SPC" pintype="input"/>
+      <node ref="ACCMAG1" pin="1" pinfunction="SCL/SPC" pintype="input"/>
+      <node ref="J2" pin="5" pinfunction="SCL/GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="Net-(ACCGYRO1-SDA{slash}SDI{slash}SDO)">
+      <node ref="ACCGYRO1" pin="4" pinfunction="SDA/SDI/SDO" pintype="bidirectional"/>
+      <node ref="ACCMAG1" pin="4" pinfunction="SDA/SDI/SDO" pintype="bidirectional"/>
+      <node ref="J2" pin="3" pinfunction="SDA/GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="32" pinfunction="PWM0/GPIO12" pintype="bidirectional"/>
+      <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="MOT3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J2-GCLK0{slash}GPIO4)">
+      <node ref="J2" pin="7" pinfunction="GCLK0/GPIO4" pintype="bidirectional"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(J2-GPIO14{slash}TXD)">
+      <node ref="J2" pin="8" pinfunction="GPIO14/TXD" pintype="bidirectional"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(J2-GPIO15{slash}RXD)">
+      <node ref="J2" pin="10" pinfunction="GPIO15/RXD" pintype="bidirectional"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(J2-GPIO16)">
+      <node ref="J2" pin="36" pinfunction="GPIO16" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(J2-GPIO17)">
+      <node ref="J2" pin="11" pinfunction="GPIO17" pintype="bidirectional"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J2-GPIO18{slash}PWM0)">
+      <node ref="J2" pin="12" pinfunction="GPIO18/PWM0" pintype="bidirectional"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="MOT2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J2-GPIO19{slash}MISO1)">
+      <node ref="J2" pin="35" pinfunction="GPIO19/MISO1" pintype="bidirectional"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOT0" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J2-GPIO20{slash}MOSI1)">
+      <node ref="J2" pin="38" pinfunction="GPIO20/MOSI1" pintype="bidirectional"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J2-GPIO21{slash}SCLK1)">
+      <node ref="G1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="40" pinfunction="GPIO21/SCLK1" pintype="bidirectional"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J2-GPIO27)">
+      <node ref="J2" pin="13" pinfunction="GPIO27" pintype="bidirectional"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J2-PWM1{slash}GPIO13)">
+      <node ref="J2" pin="33" pinfunction="PWM1/GPIO13" pintype="bidirectional"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="MOT1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J10-Pin_1)">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="22" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Net-(J10-Pin_2)">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="GPIO24" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(J10-Pin_3)">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="GPIO23" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(J11-Pin_1)">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="21" pinfunction="MISO0/GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(J11-Pin_2)">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="MOSI0/GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(J11-Pin_3)">
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(J12-Pin_1)">
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="24" pinfunction="~{CE0}/GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="Net-(J12-Pin_2)">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="26" pinfunction="~{CE1}/GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="Net-(J12-Pin_3)">
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="28" pinfunction="ID_SC/GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="Net-(J13-Pin_1)">
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="31" pinfunction="GCLK2/GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(J13-Pin_2)">
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="29" pinfunction="GCLK1/GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="Net-(J13-Pin_3)">
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="27" pinfunction="ID_SD/GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(J16-Pin_1)">
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="37" pinfunction="GPIO26" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(ACCGYRO1-C1-Pad5)">
+      <node ref="ACCGYRO1" pin="5" pinfunction="C1" pintype="passive"/>
+    </net>
+    <net code="46" name="unconnected-(ACCGYRO1-CS_MAG-Pad3)">
+      <node ref="ACCGYRO1" pin="3" pinfunction="CS_MAG" pintype="input"/>
+    </net>
+    <net code="47" name="unconnected-(ACCGYRO1-CS_XL-Pad2)">
+      <node ref="ACCGYRO1" pin="2" pinfunction="CS_XL" pintype="input"/>
+    </net>
+    <net code="48" name="unconnected-(ACCGYRO1-DRDY_MAG-Pad11)">
+      <node ref="ACCGYRO1" pin="11" pinfunction="DRDY_MAG" pintype="output"/>
+    </net>
+    <net code="49" name="unconnected-(ACCGYRO1-INT_MAG-Pad7)">
+      <node ref="ACCGYRO1" pin="7" pinfunction="INT_MAG" pintype="output"/>
+    </net>
+    <net code="50" name="unconnected-(ACCGYRO1-INT_XL-Pad12)">
+      <node ref="ACCGYRO1" pin="12" pinfunction="INT_XL" pintype="output"/>
+    </net>
+    <net code="51" name="unconnected-(ACCMAG1-C1-Pad5)">
+      <node ref="ACCMAG1" pin="5" pinfunction="C1" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(ACCMAG1-CS_MAG-Pad3)">
+      <node ref="ACCMAG1" pin="3" pinfunction="CS_MAG" pintype="input"/>
+    </net>
+    <net code="53" name="unconnected-(ACCMAG1-CS_XL-Pad2)">
+      <node ref="ACCMAG1" pin="2" pinfunction="CS_XL" pintype="input"/>
+    </net>
+    <net code="54" name="unconnected-(ACCMAG1-DRDY_MAG-Pad11)">
+      <node ref="ACCMAG1" pin="11" pinfunction="DRDY_MAG" pintype="output"/>
+    </net>
+    <net code="55" name="unconnected-(ACCMAG1-INT_MAG-Pad7)">
+      <node ref="ACCMAG1" pin="7" pinfunction="INT_MAG" pintype="output"/>
+    </net>
+    <net code="56" name="unconnected-(ACCMAG1-INT_XL-Pad12)">
+      <node ref="ACCMAG1" pin="12" pinfunction="INT_XL" pintype="output"/>
+    </net>
+    <net code="57" name="unconnected-(J2-SCLK0{slash}GPIO11-Pad23)">
+      <node ref="J2" pin="23" pinfunction="SCLK0/GPIO11" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
