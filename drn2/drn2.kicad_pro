@@ -493,7 +493,8 @@
       "/11.1": "11.1",
       "/3.3": "3.3",
       "/5V": "5V",
-      "/GND": "GND"
+      "/GND": "GND",
+      "GND": "GND"
     },
     "netclass_patterns": [
       {
