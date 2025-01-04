@@ -1,7 +1,13 @@
+drn2.zip
+drn2/*.lck
+# drn2/drn2-backups/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+
 
 # C extensions
 *.so
