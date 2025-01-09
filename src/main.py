@@ -4,7 +4,7 @@ import time
 import pygpio
 
 print("initializing LSM9DS1")
-acc = fci.sensor.LSM9DS1()
+acc = fci.sensor.LSM9DS1(1)
 print("went ok")
 
 led1 = pygpio.LED(21)
