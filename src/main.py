@@ -8,10 +8,13 @@ os.system("i2cdetect -y 1")
 
 print("initializing LSM9DS1")
 pi = pigpio.pi()
-
+pi.set_mode(10, pigpio.OUTPUT) # GPIO 17 as output
 pi.write(10, 1) # CS_AG
+pi.set_mode(24, pigpio.OUTPUT) # GPIO 17 as output
 pi.write(24, 0) # CS_M
+pi.set_mode(11, pigpio.OUTPUT) # GPIO 17 as output
 pi.write(11, 0) # SDO_AG
+pi.set_mode(9, pigpio.OUTPUT) # GPIO 17 as output
 pi.write(9, 0)  # SD0_M
 
 os.system("i2cdetect -y 1")
@@ -32,5 +35,13 @@ while True:
     time.sleep(0.5)
     pi.write(21, 0)
     pi.write(20, 1)
-    pi.toggle(16)
+    pi.write(16,1)
+    time.sleep(0.5)
+    print(acc.read())
+    pi.write(21, 1)
+    pi.write(20, 0)
+    time.sleep(0.5)
+    pi.write(21, 0)
+    pi.write(20, 1)
+    pi.write(16,0)
     time.sleep(0.5)
