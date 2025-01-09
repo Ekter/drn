@@ -8,18 +8,18 @@ os.system("i2cdetect -y 1")
 
 print("initializing LSM9DS1")
 pi = pigpio.pi()
-pi.set_mode(10, pigpio.OUTPUT) # GPIO 17 as output
-pi.write(10, 1) # CS_AG
-pi.set_mode(24, pigpio.OUTPUT) # GPIO 17 as output
-pi.write(24, 0) # CS_M
-pi.set_mode(11, pigpio.OUTPUT) # GPIO 17 as output
-pi.write(11, 0) # SDO_AG
-pi.set_mode(9, pigpio.OUTPUT) # GPIO 17 as output
-pi.write(9, 0)  # SD0_M
+pi.set_mode(10, pigpio.OUTPUT)
+pi.write(10, 1)                 # CS_AG
+pi.set_mode(24, pigpio.OUTPUT)
+pi.write(24, 1)                 # CS_M
+pi.set_mode(11, pigpio.OUTPUT)
+pi.write(11, 0)                 # SDO_AG
+pi.set_mode(9, pigpio.OUTPUT)
+pi.write(9, 0)                  # SD0_M
 
 os.system("i2cdetect -y 1")
 
-acc = fci.sensor.LSM9DS1(1)
+acc = fci.sensor.LSM9DS1()
 print("went ok")
 
 
