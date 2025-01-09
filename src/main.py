@@ -4,10 +4,12 @@ import time
 import pigpio
 
 print("initializing LSM9DS1")
+pi = pigpio.pi()
+pi.write(11,0)
+
 acc = fci.sensor.LSM9DS1(1)
 print("went ok")
 
-pi = pigpio.pi()
 
 time.sleep(1)
 acc.check()
