@@ -1,13 +1,13 @@
 import ftprci as fci
 import time
 
-import pygpio
+import pigpio
 
 print("initializing LSM9DS1")
 acc = fci.sensor.LSM9DS1(1)
 print("went ok")
 
-led1 = pygpio.LED(21)
+led1 = pigpio.LED(21)
 
 led1.on()
 time.sleep(1)
