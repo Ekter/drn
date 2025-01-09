@@ -8,9 +8,11 @@ os.system("i2cdetect -y 1")
 
 print("initializing LSM9DS1")
 pi = pigpio.pi()
-pi.write(11, 0)
-pi.write(10, 1)
-pi.write(24, 0)
+
+pi.write(10, 1) # CS_AG
+pi.write(24, 0) # CS_M
+pi.write(11, 0) # SDO_AG
+pi.write(9, 0)  # SD0_M
 
 os.system("i2cdetect -y 1")
 
