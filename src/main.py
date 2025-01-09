@@ -1,7 +1,10 @@
 import ftprci as fci
 import time
+import os
 
 import pigpio
+
+os.system("i2cdetect -y 1")
 
 print("initializing LSM9DS1")
 pi = pigpio.pi()
@@ -9,6 +12,7 @@ pi.write(11, 0)
 pi.write(10, 1)
 pi.write(24, 0)
 
+os.system("i2cdetect -y 1")
 
 acc = fci.sensor.LSM9DS1(1)
 print("went ok")
