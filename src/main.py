@@ -7,17 +7,16 @@ print("initializing LSM9DS1")
 acc = fci.sensor.LSM9DS1(1)
 print("went ok")
 
-led1 = pigpio.LED(21)
+pi = pigpio.pi()
 
-led1.on()
 time.sleep(1)
-led1.off()
 acc.check()
 
 acc.full_settings()
 
 while True:
-    acc.read()
-    print(acc.acceleration)
-    time.sleep(1)
-
+    print(acc.read())
+    pi.write(21, 1)
+    time.sleep(0.5)
+    pi.write(21, 0)
+    time.sleep(0.5)
