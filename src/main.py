@@ -18,7 +18,7 @@ pi.write(11, 0)
 pi.set_mode(9, pigpio.OUTPUT)   # SD0_M
 pi.write(9, 0)
 
-pi.set_mode(16, pigpio.OUTPUT) # led red
+pi.set_mode(16, pigpio.OUTPUT) # led red    # TODO BLINK THIS
 pi.write(16, 1)
 pi.set_mode(20, pigpio.OUTPUT)
 pi.write(20, 0)
@@ -37,50 +37,21 @@ pi.write(18, 0)
 pi.set_mode(19, pigpio.OUTPUT) # mot4
 pi.write(19, 0)
 
-pi.set_servo_pulsewidth(12, 1000) # minimum throttle
-
+pi.set_servo_pulsewidth(12, 1000) # min throttle
+pi.set_servo_pulsewidth(13, 1000) # min throttle
+pi.set_servo_pulsewidth(18, 1000) # min throttle
+pi.set_servo_pulsewidth(19, 1000) # min throttle
 time.sleep(1)
 
-pi.set_servo_pulsewidth(12, 2000) # maximum throttle
-
+pi.set_servo_pulsewidth(12, 2000) # max throttle
+pi.set_servo_pulsewidth(13, 2000) # max throttle
+pi.set_servo_pulsewidth(18, 2000) # max throttle
+pi.set_servo_pulsewidth(19, 2000) # max throttle
 time.sleep(1)
 
 pi.set_servo_pulsewidth(12, 1500) # mean throttle
-
-time.sleep(1)
-
-pi.set_servo_pulsewidth(13, 1000) # minimum throttle
-
-time.sleep(1)
-
-pi.set_servo_pulsewidth(13, 2000) # maximum throttle
-
-time.sleep(1)
-
 pi.set_servo_pulsewidth(13, 1500) # mean throttle
-
-time.sleep(1)
-
-pi.set_servo_pulsewidth(18, 1000) # minimum throttle
-
-time.sleep(1)
-
-pi.set_servo_pulsewidth(18, 2000) # maximum throttle
-
-time.sleep(1)
-
 pi.set_servo_pulsewidth(18, 1500) # mean throttle
-
-time.sleep(1)
-
-pi.set_servo_pulsewidth(19, 1000) # minimum throttle
-
-time.sleep(1)
-
-pi.set_servo_pulsewidth(19, 2000) # maximum throttle
-
-time.sleep(1)
-
 pi.set_servo_pulsewidth(19, 1500) # mean throttle
 
 time.sleep(1)
