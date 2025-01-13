@@ -18,7 +18,7 @@ pi.write(11, 0)
 pi.set_mode(9, pigpio.OUTPUT)   # SD0_M
 pi.write(9, 0)
 
-pi.set_mode(16, pigpio.OUTPUT) # leds
+pi.set_mode(16, pigpio.OUTPUT) # led red
 pi.write(16, 0)
 pi.set_mode(20, pigpio.OUTPUT)
 pi.write(20, 0)
@@ -33,6 +33,55 @@ pi.set_mode(18, pigpio.OUTPUT) # mot3
 pi.write(18, 0)
 pi.set_mode(19, pigpio.OUTPUT) # mot4
 pi.write(19, 0)
+
+pi.set_servo_pulsewidth(12, 1000) # Minimum throttle.
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(12, 2000) # Maximum throttle.
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(12, 0) # stop throttle
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(13, 1000) # Minimum throttle.
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(13, 2000) # Maximum throttle.
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(13, 0) # stop throttle
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(18, 1000) # Minimum throttle.
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(18, 2000) # Maximum throttle.
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(18, 0) # stop throttle
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(19, 1000) # Minimum throttle.
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(19, 2000) # Maximum throttle.
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(19, 0) # stop throttle
+
+time.sleep(1)
+
 
 
 # http://abyz.me.uk/rpi/pigpio/python.html#set_servo_pulsewidth
