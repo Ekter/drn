@@ -6,7 +6,7 @@ import pigpio
 
 os.system("i2cdetect -y 1")
 
-print("initializing LSM9DS1")
+print("initializing pins")
 pi = pigpio.pi()
 
 pi.set_mode(10, pigpio.OUTPUT)  # CS_AG
@@ -24,6 +24,9 @@ pi.set_mode(20, pigpio.OUTPUT)
 pi.write(20, 0)
 pi.set_mode(21, pigpio.OUTPUT)
 pi.write(21, 0)
+
+print("initializing motors")
+
 
 pi.set_mode(12, pigpio.OUTPUT) # mot1
 pi.write(12, 0)
@@ -88,6 +91,8 @@ time.sleep(1)
 # http://abyz.me.uk/rpi/pigpio/python.html#set_PWM_range
 
 os.system("i2cdetect -y 1")
+
+print("initializing LSM9DS1")
 
 acc = fci.sensor.LSM9DS1()
 print("went ok")
