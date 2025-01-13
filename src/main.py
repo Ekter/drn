@@ -19,7 +19,7 @@ pi.set_mode(9, pigpio.OUTPUT)   # SD0_M
 pi.write(9, 0)
 
 pi.set_mode(16, pigpio.OUTPUT) # led red
-pi.write(16, 0)
+pi.write(16, 1)
 pi.set_mode(20, pigpio.OUTPUT)
 pi.write(20, 0)
 pi.set_mode(21, pigpio.OUTPUT)
@@ -85,6 +85,32 @@ pi.set_servo_pulsewidth(19, 0) # stop throttle
 
 time.sleep(1)
 
+pi.set_servo_pulsewidth(12, 1450)
+pi.set_servo_pulsewidth(13, 1450)
+pi.set_servo_pulsewidth(18, 1450)
+pi.set_servo_pulsewidth(19, 1450)
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(12, 0)
+pi.set_servo_pulsewidth(13, 0)
+pi.set_servo_pulsewidth(18, 0)
+pi.set_servo_pulsewidth(19, 0)
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(12, 1400)
+pi.set_servo_pulsewidth(13, 1400)
+pi.set_servo_pulsewidth(18, 1400)
+pi.set_servo_pulsewidth(19, 1400)
+
+time.sleep(1)
+
+pi.set_servo_pulsewidth(12, 0)
+pi.set_servo_pulsewidth(13, 0)
+pi.set_servo_pulsewidth(18, 0)
+pi.set_servo_pulsewidth(19, 0)
+
 
 
 # http://abyz.me.uk/rpi/pigpio/python.html#set_servo_pulsewidth
@@ -96,6 +122,7 @@ print("initializing LSM9DS1")
 
 acc = fci.sensor.LSM9DS1()
 print("went ok")
+
 
 
 time.sleep(1)
@@ -115,9 +142,9 @@ print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg5()):08b}")
 print(f"reg CTRL_REG6_XL state: {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG6_XL, max_bytes=1)[0]:08b}")
 print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg6()):08b}")
 print(f"reg CTRL_REG7_XL state: {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG7_XL, max_bytes=1)[0]:08b}")
-print(f"     -> default:        None")
+print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg7()):08b}")
 print(f"reg CTRL_REG8 state:    {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG8, max_bytes=1)[0]:08b}")
-print(f"     -> default:        None")
+print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg8()):08b}")
 print(f"reg CTRL_REG9 state:    {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG9, max_bytes=1)[0]:08b}")
 print(f"     -> default:        None")
 print(f"reg CTRL_REG10 state:   {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG10, max_bytes=1)[0]:08b}")
