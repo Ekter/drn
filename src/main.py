@@ -37,51 +37,51 @@ pi.write(18, 0)
 pi.set_mode(19, pigpio.OUTPUT) # mot4
 pi.write(19, 0)
 
-pi.set_servo_pulsewidth(12, 1000) # Minimum throttle.
+pi.set_servo_pulsewidth(12, 1000) # minimum throttle
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(12, 2000) # Maximum throttle.
+pi.set_servo_pulsewidth(12, 2000) # maximum throttle
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(12, 0) # stop throttle
+pi.set_servo_pulsewidth(12, 1500) # mean throttle
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(13, 1000) # Minimum throttle.
+pi.set_servo_pulsewidth(13, 1000) # minimum throttle
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(13, 2000) # Maximum throttle.
+pi.set_servo_pulsewidth(13, 2000) # maximum throttle
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(13, 0) # stop throttle
+pi.set_servo_pulsewidth(13, 1500) # mean throttle
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(18, 1000) # Minimum throttle.
+pi.set_servo_pulsewidth(18, 1000) # minimum throttle
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(18, 2000) # Maximum throttle.
+pi.set_servo_pulsewidth(18, 2000) # maximum throttle
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(18, 0) # stop throttle
+pi.set_servo_pulsewidth(18, 1500) # mean throttle
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(19, 1000) # Minimum throttle.
+pi.set_servo_pulsewidth(19, 1000) # minimum throttle
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(19, 2000) # Maximum throttle.
+pi.set_servo_pulsewidth(19, 2000) # maximum throttle
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(19, 0) # stop throttle
+pi.set_servo_pulsewidth(19, 1500) # mean throttle
 
 time.sleep(1)
 
@@ -92,10 +92,10 @@ pi.set_servo_pulsewidth(19, 1450)
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(12, 0)
-pi.set_servo_pulsewidth(13, 0)
-pi.set_servo_pulsewidth(18, 0)
-pi.set_servo_pulsewidth(19, 0)
+pi.set_servo_pulsewidth(12, 1500)
+pi.set_servo_pulsewidth(13, 1500)
+pi.set_servo_pulsewidth(18, 1500)
+pi.set_servo_pulsewidth(19, 1500)
 
 time.sleep(1)
 
@@ -106,10 +106,10 @@ pi.set_servo_pulsewidth(19, 1400)
 
 time.sleep(1)
 
-pi.set_servo_pulsewidth(12, 0)
-pi.set_servo_pulsewidth(13, 0)
-pi.set_servo_pulsewidth(18, 0)
-pi.set_servo_pulsewidth(19, 0)
+pi.set_servo_pulsewidth(12, 1500)
+pi.set_servo_pulsewidth(13, 1500)
+pi.set_servo_pulsewidth(18, 1500)
+pi.set_servo_pulsewidth(19, 1500)
 
 
 
