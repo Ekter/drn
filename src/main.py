@@ -124,6 +124,25 @@ try:
     pi.set_servo_pulsewidth(18, 1500)
     pi.set_servo_pulsewidth(19, 1500)
 
+    time.sleep(5)
+
+
+
+    while True:
+        print(acc.read())
+        pi.write(21, 1)
+        pi.write(20, 0)
+        pi.write(16,0)
+        time.sleep(1/3)
+        pi.write(21, 0)
+        pi.write(20, 1)
+        pi.write(16,0)
+        time.sleep(1/3)
+        pi.write(21, 0)
+        pi.write(20, 0)
+        pi.write(16,1)
+        time.sleep(1/3)
+
 except KeyboardInterrupt:
     pi.set_servo_pulsewidth(12, 0)
     pi.set_servo_pulsewidth(13, 0)
@@ -135,17 +154,3 @@ except KeyboardInterrupt:
 
 # http://abyz.me.uk/rpi/pigpio/python.html#set_servo_pulsewidth
 # http://abyz.me.uk/rpi/pigpio/python.html#set_PWM_range
-while True:
-    print(acc.read())
-    pi.write(21, 1)
-    pi.write(20, 0)
-    pi.write(16,0)
-    time.sleep(1/3)
-    pi.write(21, 0)
-    pi.write(20, 1)
-    pi.write(16,0)
-    time.sleep(1/3)
-    pi.write(21, 0)
-    pi.write(20, 0)
-    pi.write(16,1)
-    time.sleep(1/3)
