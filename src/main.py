@@ -1,8 +1,8 @@
 import ftprci as fci
 import time
 import os
-
 import pigpio
+
 
 os.system("i2cdetect -y 1")
 
@@ -38,30 +38,29 @@ pi.set_mode(19, pigpio.OUTPUT) # mot4
 pi.write(19, 0)
 
 pi.set_servo_pulsewidth(12, 1000) # min throttle
-pi.set_servo_pulsewidth(13, 1000) # min throttle
 time.sleep(1)
 
 pi.set_servo_pulsewidth(12, 2000) # max throttle
-pi.set_servo_pulsewidth(13, 2000) # max throttle
+pi.set_servo_pulsewidth(13, 1000) # min throttle
 time.sleep(1)
-pi.set_servo_pulsewidth(12, 1500) # mean throttle
-pi.set_servo_pulsewidth(13, 1500) # mean throttle
-time.sleep(5)
 
+pi.set_servo_pulsewidth(12, 1500) # mean throttle
+pi.set_servo_pulsewidth(13, 2000) # max throttle
 pi.set_servo_pulsewidth(18, 1000) # min throttle
 time.sleep(1)
-pi.set_servo_pulsewidth(18, 2000) # max throttle
-time.sleep(1)
-pi.set_servo_pulsewidth(18, 1500) # mean throttle
-time.sleep(5)
 
+pi.set_servo_pulsewidth(13, 1500) # mean throttle
+pi.set_servo_pulsewidth(18, 2000) # max throttle
 pi.set_servo_pulsewidth(19, 1000) # min throttle
 time.sleep(1)
+
+pi.set_servo_pulsewidth(18, 1500) # mean throttle
 pi.set_servo_pulsewidth(19, 2000) # max throttle
 time.sleep(1)
-pi.set_servo_pulsewidth(19, 1500) # mean throttle
-time.sleep(5)
 
+pi.set_servo_pulsewidth(19, 1500) # mean throttle
+time.sleep(1)
+time.sleep(5)
 pi.set_servo_pulsewidth(12, 1450)
 pi.set_servo_pulsewidth(13, 1450)
 pi.set_servo_pulsewidth(18, 1450)
