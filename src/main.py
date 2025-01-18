@@ -37,56 +37,65 @@ pi.write(18, 0)
 pi.set_mode(19, pigpio.OUTPUT) # mot4
 pi.write(19, 0)
 
-pi.set_servo_pulsewidth(12, 1000) # min throttle
-time.sleep(1)
+try:
 
-pi.set_servo_pulsewidth(12, 2000) # max throttle
-pi.set_servo_pulsewidth(13, 1000) # min throttle
-time.sleep(1)
+    pi.set_servo_pulsewidth(12, 1000) # min throttle
+    time.sleep(1)
 
-pi.set_servo_pulsewidth(12, 1500) # mean throttle
-pi.set_servo_pulsewidth(13, 2000) # max throttle
-pi.set_servo_pulsewidth(18, 1000) # min throttle
-time.sleep(1)
+    pi.set_servo_pulsewidth(12, 2000) # max throttle
+    pi.set_servo_pulsewidth(13, 1000) # min throttle
+    time.sleep(1)
 
-pi.set_servo_pulsewidth(13, 1500) # mean throttle
-pi.set_servo_pulsewidth(18, 2000) # max throttle
-pi.set_servo_pulsewidth(19, 1000) # min throttle
-time.sleep(1)
+    pi.set_servo_pulsewidth(12, 1500) # mean throttle
+    pi.set_servo_pulsewidth(13, 2000) # max throttle
+    pi.set_servo_pulsewidth(18, 1000) # min throttle
+    time.sleep(1)
 
-pi.set_servo_pulsewidth(18, 1500) # mean throttle
-pi.set_servo_pulsewidth(19, 2000) # max throttle
-time.sleep(1)
+    pi.set_servo_pulsewidth(13, 1500) # mean throttle
+    pi.set_servo_pulsewidth(18, 2000) # max throttle
+    pi.set_servo_pulsewidth(19, 1000) # min throttle
+    time.sleep(1)
 
-pi.set_servo_pulsewidth(19, 1500) # mean throttle
-time.sleep(1)
-time.sleep(5)
-pi.set_servo_pulsewidth(12, 1450)
-pi.set_servo_pulsewidth(13, 1450)
-pi.set_servo_pulsewidth(18, 1450)
-pi.set_servo_pulsewidth(19, 1450)
+    pi.set_servo_pulsewidth(18, 1500) # mean throttle
+    pi.set_servo_pulsewidth(19, 2000) # max throttle
+    time.sleep(1)
 
-time.sleep(5)
+    pi.set_servo_pulsewidth(19, 1500) # mean throttle
+    time.sleep(1)
+    time.sleep(5)
+    pi.set_servo_pulsewidth(12, 1450)
+    pi.set_servo_pulsewidth(13, 1450)
+    pi.set_servo_pulsewidth(18, 1450)
+    pi.set_servo_pulsewidth(19, 1450)
 
-pi.set_servo_pulsewidth(12, 1500)
-pi.set_servo_pulsewidth(13, 1500)
-pi.set_servo_pulsewidth(18, 1500)
-pi.set_servo_pulsewidth(19, 1500)
+    time.sleep(5)
 
-time.sleep(5)
+    pi.set_servo_pulsewidth(12, 1500)
+    pi.set_servo_pulsewidth(13, 1500)
+    pi.set_servo_pulsewidth(18, 1500)
+    pi.set_servo_pulsewidth(19, 1500)
 
-pi.set_servo_pulsewidth(12, 1400)
-pi.set_servo_pulsewidth(13, 1400)
-pi.set_servo_pulsewidth(18, 1400)
-pi.set_servo_pulsewidth(19, 1400)
+    time.sleep(5)
 
-time.sleep(5)
+    pi.set_servo_pulsewidth(12, 1400)
+    pi.set_servo_pulsewidth(13, 1400)
+    pi.set_servo_pulsewidth(18, 1400)
+    pi.set_servo_pulsewidth(19, 1400)
 
-pi.set_servo_pulsewidth(12, 1500)
-pi.set_servo_pulsewidth(13, 1500)
-pi.set_servo_pulsewidth(18, 1500)
-pi.set_servo_pulsewidth(19, 1500)
+    time.sleep(5)
 
+    pi.set_servo_pulsewidth(12, 1500)
+    pi.set_servo_pulsewidth(13, 1500)
+    pi.set_servo_pulsewidth(18, 1500)
+    pi.set_servo_pulsewidth(19, 1500)
+
+except KeyboardInterrupt:
+    pi.set_servo_pulsewidth(12, 0)
+    pi.set_servo_pulsewidth(13, 0)
+    pi.set_servo_pulsewidth(18, 0)
+    pi.set_servo_pulsewidth(19, 0)
+    pi.stop()
+    sys.exit(0)
 
 
 # http://abyz.me.uk/rpi/pigpio/python.html#set_servo_pulsewidth
