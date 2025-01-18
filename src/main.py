@@ -2,6 +2,7 @@ import ftprci as fci
 import time
 import os
 import pigpio
+import sys
 
 
 os.system("i2cdetect -y 1")
@@ -25,8 +26,42 @@ pi.write(20, 0)
 pi.set_mode(21, pigpio.OUTPUT)
 pi.write(21, 0)
 
-print("initializing motors")
+os.system("i2cdetect -y 1")
 
+print("initializing LSM9DS1")
+
+acc = fci.sensor.LSM9DS1()
+print("went ok")
+
+
+time.sleep(1)
+acc.check()
+
+acc.full_settings()
+print(f"reg CTRL_REG1_G state:  {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG1_G, max_bytes=1)[0]:08b}")
+print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg1()):08b}")
+print(f"reg CTRL_REG2_G state:  {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG2_G, max_bytes=1)[0]:08b}")
+print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg2()):08b}")
+print(f"reg CTRL_REG3_G state:  {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG3_G, max_bytes=1)[0]:08b}")
+print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg3()):08b}")
+print(f"reg CTRL_REG4 state:    {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG4, max_bytes=1)[0]:08b}")
+print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg4()):08b}")
+print(f"reg CTRL_REG5_XL state: {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG5_XL, max_bytes=1)[0]:08b}")
+print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg5()):08b}")
+print(f"reg CTRL_REG6_XL state: {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG6_XL, max_bytes=1)[0]:08b}")
+print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg6()):08b}")
+print(f"reg CTRL_REG7_XL state: {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG7_XL, max_bytes=1)[0]:08b}")
+print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg7()):08b}")
+print(f"reg CTRL_REG8 state:    {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG8, max_bytes=1)[0]:08b}")
+print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg8()):08b}")
+print(f"reg CTRL_REG9 state:    {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG9, max_bytes=1)[0]:08b}")
+print(f"     -> default:        None")
+print(f"reg CTRL_REG10 state:   {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG10, max_bytes=1)[0]:08b}")
+print(f"     -> default:        None")
+
+
+
+print("initializing motors")
 
 pi.set_mode(12, pigpio.OUTPUT) # mot1
 pi.write(12, 0)
@@ -100,41 +135,6 @@ except KeyboardInterrupt:
 
 # http://abyz.me.uk/rpi/pigpio/python.html#set_servo_pulsewidth
 # http://abyz.me.uk/rpi/pigpio/python.html#set_PWM_range
-
-os.system("i2cdetect -y 1")
-
-print("initializing LSM9DS1")
-
-acc = fci.sensor.LSM9DS1()
-print("went ok")
-
-
-
-time.sleep(1)
-acc.check()
-
-acc.full_settings()
-print(f"reg CTRL_REG1_G state:  {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG1_G, max_bytes=1)[0]:08b}")
-print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg1()):08b}")
-print(f"reg CTRL_REG2_G state:  {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG2_G, max_bytes=1)[0]:08b}")
-print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg2()):08b}")
-print(f"reg CTRL_REG3_G state:  {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG3_G, max_bytes=1)[0]:08b}")
-print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg3()):08b}")
-print(f"reg CTRL_REG4 state:    {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG4, max_bytes=1)[0]:08b}")
-print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg4()):08b}")
-print(f"reg CTRL_REG5_XL state: {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG5_XL, max_bytes=1)[0]:08b}")
-print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg5()):08b}")
-print(f"reg CTRL_REG6_XL state: {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG6_XL, max_bytes=1)[0]:08b}")
-print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg6()):08b}")
-print(f"reg CTRL_REG7_XL state: {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG7_XL, max_bytes=1)[0]:08b}")
-print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg7()):08b}")
-print(f"reg CTRL_REG8 state:    {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG8, max_bytes=1)[0]:08b}")
-print(f"     -> default:        {int(acc.RegsAccGyro.CtrlReg8()):08b}")
-print(f"reg CTRL_REG9 state:    {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG9, max_bytes=1)[0]:08b}")
-print(f"     -> default:        None")
-print(f"reg CTRL_REG10 state:   {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG10, max_bytes=1)[0]:08b}")
-print(f"     -> default:        None")
-
 while True:
     print(acc.read())
     pi.write(21, 1)

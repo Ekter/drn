@@ -6,6 +6,7 @@ cd drn
 git pull
 
 set -e
+sudo pigpiod
 
 source .venv/bin/activate
 
