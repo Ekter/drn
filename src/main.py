@@ -72,6 +72,29 @@ pi.write(18, 0)
 pi.set_mode(19, pigpio.OUTPUT) # mot4
 pi.write(19, 0)
 
+pi.set_servo_pulsewidth(12, 0)
+pi.set_servo_pulsewidth(13, 0)
+pi.set_servo_pulsewidth(18, 0)
+pi.set_servo_pulsewidth(19, 0)
+time.sleep(1)
+pi.write(16, 1) # red
+pi.write(20, 1) # yellow
+pi.write(21, 1) # green
+time.sleep(1)
+pi.write(16, 0) # red
+pi.write(20, 1) # yellow
+pi.write(21, 1) # green
+time.sleep(1)
+pi.write(16, 0) # red
+pi.write(20, 0) # yellow
+pi.write(21, 1) # green
+time.sleep(1)
+pi.write(16, 0) # red
+pi.write(20, 0) # yellow
+pi.write(21, 0) # green
+
+
+
 try:
 
     pi.set_servo_pulsewidth(12, 1000) # min throttle
