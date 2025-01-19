@@ -174,7 +174,7 @@ try:
     while True:
         output = int(input("throttle: "))
         print(f"current throttle: {output}")
-        pi.set_servo_pulsewidth(12, output)
+        pi.set_servo_pulsewidth(19, output)
 
     time.sleep(5)
 
