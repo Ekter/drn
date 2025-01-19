@@ -132,7 +132,7 @@ try:
 
     min_ = 1000
     max_ = 2000
-    mean_ = 1500
+    mean_ = 1480
     pi.set_servo_pulsewidth(12, min_)  # min throttle
     time.sleep(1)
 
