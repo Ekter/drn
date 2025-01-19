@@ -37,7 +37,7 @@ print("went ok")
 time.sleep(1)
 acc.check()
 
-acc.full_settings()
+# acc.full_settings()
 print(
     f"reg CTRL_REG1_G state:  {acc.accgyro.read(address=acc.RegsAccGyro.CTRL_REG1_G, max_bytes=1)[0]:08b}"
 )
