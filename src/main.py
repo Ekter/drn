@@ -147,14 +147,14 @@ try:
 
     pi.set_servo_pulsewidth(13, mean_)  # mean throttle
     pi.set_servo_pulsewidth(18, max_)  # max throttle
-    # pi.set_servo_pulsewidth(19, min_)  # min throttle
+    pi.set_servo_pulsewidth(19, 1500)  # max throttle
     time.sleep(1)
 
     pi.set_servo_pulsewidth(18, mean_)  # mean throttle
-    # pi.set_servo_pulsewidth(19, max_)  # max throttle
+    pi.set_servo_pulsewidth(19, 500)  # min throttle
     time.sleep(1)
 
-    # pi.set_servo_pulsewidth(19, mean_)  # mean throttle
+    pi.set_servo_pulsewidth(19, mean_)  # mean throttle
     time.sleep(1)
     time.sleep(5)
     print("motors initialized")
@@ -162,7 +162,7 @@ try:
     pi.set_servo_pulsewidth(12, mean_ - 30)
     pi.set_servo_pulsewidth(13, mean_ - 30)
     pi.set_servo_pulsewidth(18, mean_ - 30)
-    # pi.set_servo_pulsewidth(19, mean_ - 30)
+    pi.set_servo_pulsewidth(19, mean_ - 30)
 
     time.sleep(5)
 
@@ -170,29 +170,33 @@ try:
     pi.set_servo_pulsewidth(12, mean_)
     pi.set_servo_pulsewidth(13, mean_)
     pi.set_servo_pulsewidth(18, mean_)
-    # pi.set_servo_pulsewidth(19, mean_)
+    pi.set_servo_pulsewidth(19, mean_)
+
+    time.sleep(5)
+
+    print(f"current throttle: {mean_ + 30}")
+    pi.set_servo_pulsewidth(12, mean_ + 30)
+    pi.set_servo_pulsewidth(13, mean_ + 30)
+    pi.set_servo_pulsewidth(18, mean_ + 30)
+    pi.set_servo_pulsewidth(19, mean_ + 30)
+
+    time.sleep(5)
+
+    print(f"current throttle: {mean_}")
+    pi.set_servo_pulsewidth(12, mean_)
+    pi.set_servo_pulsewidth(13, mean_)
+    pi.set_servo_pulsewidth(18, mean_)
+    pi.set_servo_pulsewidth(19, mean_)
+
+    time.sleep(5)
+
     while True:
         output = int(input("throttle: "))
         print(f"current throttle: {output}")
+        pi.set_servo_pulsewidth(12, output)
+        pi.set_servo_pulsewidth(13, output)
+        pi.set_servo_pulsewidth(18, output)
         pi.set_servo_pulsewidth(19, output)
-
-    time.sleep(5)
-
-    print(f"current throttle: {mean_ - 100}")
-    pi.set_servo_pulsewidth(12, mean_ - 100)
-    pi.set_servo_pulsewidth(13, mean_ - 100)
-    pi.set_servo_pulsewidth(18, mean_ - 100)
-    # pi.set_servo_pulsewidth(19, mean_ - 100)
-
-    time.sleep(5)
-
-    print(f"current throttle: {mean_}")
-    pi.set_servo_pulsewidth(12, mean_)
-    pi.set_servo_pulsewidth(13, mean_)
-    pi.set_servo_pulsewidth(18, mean_)
-    # pi.set_servo_pulsewidth(19, mean_)
-
-    time.sleep(5)
 
     while True:
         print(acc.read())
