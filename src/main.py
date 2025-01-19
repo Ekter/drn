@@ -97,18 +97,19 @@ pi.set_servo_pulsewidth(18, 0)
 pi.set_servo_pulsewidth(19, 0)
 
 
-import pigpio
-import time
-pi = pigpio.pi()
-pi.set_servo_pulsewidth(19, 500)
-time.sleep(1)
-pi.set_servo_pulsewidth(19, 1500)
-time.sleep(1)
-pi.set_servo_pulsewidth(19, 500)
-time.sleep(1)
-pi.set_servo_pulsewidth(19, 0)
-time.sleep(1)
+# import pigpio
+# import time
+# pi = pigpio.pi()
+# pi.set_servo_pulsewidth(19, 500)
+# time.sleep(1)
+# pi.set_servo_pulsewidth(19, 1500)
+# time.sleep(1)
+# pi.set_servo_pulsewidth(19, 500)
+# time.sleep(1)
+# pi.set_servo_pulsewidth(19, 0)
+# time.sleep(1)
 
+# 0 / 0
 
 pi.write(16, 1)  # red
 pi.write(20, 1)  # yellow
@@ -126,7 +127,6 @@ pi.write(16, 0)  # red
 pi.write(20, 0)  # yellow
 pi.write(21, 0)  # green
 
-0 / 0
 
 try:
 
