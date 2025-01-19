@@ -158,11 +158,11 @@ try:
     time.sleep(1)
     time.sleep(5)
     print("motors initialized")
-    print(f"current throttle: {mean_ - 50}")
-    pi.set_servo_pulsewidth(12, mean_ - 50)
-    pi.set_servo_pulsewidth(13, mean_ - 50)
-    pi.set_servo_pulsewidth(18, mean_ - 50)
-    # pi.set_servo_pulsewidth(19, mean_ - 50)
+    print(f"current throttle: {mean_ - 30}")
+    pi.set_servo_pulsewidth(12, mean_ - 30)
+    pi.set_servo_pulsewidth(13, mean_ - 30)
+    pi.set_servo_pulsewidth(18, mean_ - 30)
+    # pi.set_servo_pulsewidth(19, mean_ - 30)
 
     time.sleep(5)
 
