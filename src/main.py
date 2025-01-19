@@ -171,6 +171,10 @@ try:
     pi.set_servo_pulsewidth(13, mean_)
     pi.set_servo_pulsewidth(18, mean_)
     # pi.set_servo_pulsewidth(19, mean_)
+    while True:
+        output = int(input("throttle: "))
+        print(f"current throttle: {output}")
+        pi.set_servo_pulsewidth(12, output)
 
     time.sleep(5)
 
