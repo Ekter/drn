@@ -147,7 +147,7 @@ try:
 
     pi.set_servo_pulsewidth(13, mean_)  # mean throttle
     pi.set_servo_pulsewidth(18, max_)  # max throttle
-    pi.set_servo_pulsewidth(19, 1500)  # max throttle
+    pi.set_servo_pulsewidth(19, 1500)  # max throttle, don't know why it is different from others
     time.sleep(1)
 
     pi.set_servo_pulsewidth(18, mean_)  # mean throttle
