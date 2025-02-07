@@ -3512,12 +3512,6 @@
 		(uuid "4477f003-43ad-42ed-b6eb-e2c278360ec9")
 	)
 	(junction
-		(at 163.83 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45cff1d9-d853-406f-a035-149944d98299")
-	)
-	(junction
 		(at 39.37 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3540,6 +3534,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bb1f893-a014-4156-a625-64b51237f768")
+	)
+	(junction
+		(at 135.89 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4da4263d-2e96-4b25-809b-42b831a58c90")
 	)
 	(junction
 		(at 245.11 115.57)
@@ -3758,6 +3758,12 @@
 		(uuid "a77b9aed-ad2d-4b9e-afca-323ebdc2e61e")
 	)
 	(junction
+		(at 39.37 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8ec012a-bc83-42d8-9d1a-dc0d4ebb1970")
+	)
+	(junction
 		(at 39.37 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3971,6 +3977,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 60.96) (xy 123.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a87a42-adbd-4760-ac91-005627d69aa6")
+	)
+	(wire
+		(pts
 			(xy 257.81 110.49) (xy 265.43 110.49)
 		)
 		(stroke
@@ -3991,7 +4007,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 80.01) (xy 163.83 102.87)
+			(xy 163.83 80.01) (xy 163.83 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4101,7 +4117,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 44.45) (xy 125.73 44.45)
+			(xy 152.4 44.45) (xy 135.89 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4211,7 +4227,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 105.41) (xy 166.37 105.41)
+			(xy 137.16 105.41) (xy 168.91 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4381,13 +4397,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 102.87) (xy 90.17 36.83)
+			(xy 96.52 105.41) (xy 90.17 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28bd394e-c0e5-404d-ba2e-266a2806b88a")
+		(uuid "29a31a83-44f0-4b51-af0f-39567ed616a7")
 	)
 	(wire
 		(pts
@@ -4721,16 +4737,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 60.96) (xy 153.67 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e93bf35-86ef-4467-a071-fcf658ba8820")
-	)
-	(wire
-		(pts
 			(xy 39.37 95.25) (xy 39.37 105.41)
 		)
 		(stroke
@@ -4771,7 +4777,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 110.49) (xy 166.37 113.03)
+			(xy 166.37 102.87) (xy 166.37 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4941,16 +4947,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 105.41) (xy 85.09 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6317513d-2f7e-4242-b138-12cee35811a8")
-	)
-	(wire
-		(pts
 			(xy 73.66 20.32) (xy 81.28 20.32)
 		)
 		(stroke
@@ -5021,7 +5017,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 20.32) (xy 39.37 78.74)
+			(xy 39.37 20.32) (xy 39.37 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5108,6 +5104,16 @@
 			(type default)
 		)
 		(uuid "6bfb2a82-e3cf-4d9d-b31c-892c023b4f21")
+	)
+	(wire
+		(pts
+			(xy 39.37 62.23) (xy 123.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3d55d3-70e3-47ed-abb1-7bbefa83296d")
 	)
 	(wire
 		(pts
@@ -5431,6 +5437,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 102.87) (xy 96.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85eafad7-0209-4f84-b464-880594afb302")
+	)
+	(wire
+		(pts
 			(xy 91.44 -2.54) (xy 99.06 -2.54)
 		)
 		(stroke
@@ -5571,16 +5587,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 102.87) (xy 163.83 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fe6b559-046c-47fc-b0a9-b5d9ab5a1b3f")
-	)
-	(wire
-		(pts
 			(xy 175.26 217.17) (xy 189.23 217.17)
 		)
 		(stroke
@@ -5628,6 +5634,16 @@
 			(type default)
 		)
 		(uuid "918c8740-18e1-4cd1-86fd-dea15f075f58")
+	)
+	(wire
+		(pts
+			(xy 166.37 102.87) (xy 168.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c027c3-a072-41b3-a412-cd4d86018019")
 	)
 	(wire
 		(pts
@@ -5821,16 +5837,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 102.87) (xy 96.52 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ed0604c-4772-4abf-afd5-b541f87122ca")
-	)
-	(wire
-		(pts
 			(xy 173.99 132.08) (xy 184.15 132.08)
 		)
 		(stroke
@@ -5851,7 +5857,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 31.75) (xy 85.09 105.41)
+			(xy 85.09 31.75) (xy 85.09 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6091,16 +6097,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 57.15) (xy 163.83 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a3e2c8-d08a-4444-9be9-52a55dc5b262")
-	)
-	(wire
-		(pts
 			(xy 189.23 139.7) (xy 189.23 157.48)
 		)
 		(stroke
@@ -6311,7 +6307,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 107.95) (xy 166.37 107.95)
+			(xy 137.16 107.95) (xy 168.91 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6388,6 +6384,16 @@
 			(type default)
 		)
 		(uuid "d44fd8e1-93d7-4824-a451-1f943ae4bf3a")
+	)
+	(wire
+		(pts
+			(xy 90.17 36.83) (xy 90.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d634a5cf-5874-4619-9d69-9925449b968a")
 	)
 	(wire
 		(pts
@@ -6501,13 +6507,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 60.96) (xy 153.67 60.96)
+			(xy 135.89 60.96) (xy 135.89 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da7ce2ad-5785-41da-9cf9-d7e63c28f050")
+		(uuid "da95d03b-4d6a-458d-94cd-82bfb583c627")
 	)
 	(wire
 		(pts
@@ -6538,6 +6544,16 @@
 			(type default)
 		)
 		(uuid "dd1ddf38-17f1-4bad-a483-9b5727ef6448")
+	)
+	(wire
+		(pts
+			(xy 135.89 44.45) (xy 125.73 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2b811c-05cc-4500-86ff-57a05a8b5a98")
 	)
 	(wire
 		(pts
@@ -6591,6 +6607,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 60.96) (xy 135.89 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6121dff-a364-4f8a-a297-fe29daec0141")
+	)
+	(wire
+		(pts
 			(xy 88.9 5.08) (xy 99.06 5.08)
 		)
 		(stroke
@@ -6598,6 +6624,16 @@
 			(type default)
 		)
 		(uuid "e6b42499-2d09-40ea-b992-cfff3c38d188")
+	)
+	(wire
+		(pts
+			(xy 163.83 110.49) (xy 168.91 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ff837e-e3fd-45ca-8a3a-6deed215f5aa")
 	)
 	(wire
 		(pts
@@ -6671,6 +6707,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 62.23) (xy 39.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37ca43c-c674-4341-9883-53b354eeaa9d")
+	)
+	(wire
+		(pts
 			(xy 91.44 87.63) (xy 91.44 139.7)
 		)
 		(stroke
@@ -6738,16 +6784,6 @@
 			(type default)
 		)
 		(uuid "f6544c8d-9933-4c1e-8e98-93505ac79c95")
-	)
-	(wire
-		(pts
-			(xy 111.76 60.96) (xy 123.19 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8fb1d47-bb67-4688-8c46-da0378507f4f")
 	)
 	(wire
 		(pts
@@ -7191,7 +7227,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49257"
+		(property "LCSC Part" "C541850"
 			(at 30.48 81.28 0)
 			(effects
 				(font
@@ -7504,7 +7540,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49257"
+		(property "LCSC Part" "C541850"
 			(at 54.61 55.88 0)
 			(effects
 				(font
@@ -7738,7 +7774,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" "1"
+			(at 161.29 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2718488"
 			(at 161.29 27.94 90)
 			(effects
 				(font
@@ -7842,6 +7887,97 @@
 			(project "drn2"
 				(path "/7bd3d39b-325c-42ab-ac28-d6b84da5ce08"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 173.99 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13478ac2-9e72-49b9-a573-293352822cae")
+		(property "Reference" "SPI1"
+			(at 173.355 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 173.355 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 173.99 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2718488"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e5b5c19c-cae0-48d4-b2c5-faa8fb500d9b")
+		)
+		(pin "4"
+			(uuid "a6682c45-6ad5-4652-9ffc-31768aa04e02")
+		)
+		(pin "1"
+			(uuid "3443bd28-c06f-4610-8a82-e4fa962918b6")
+		)
+		(pin "2"
+			(uuid "8886ea7c-e7a6-4b13-a222-b590248f9fe8")
+		)
+		(instances
+			(project "drn2"
+				(path "/7bd3d39b-325c-42ab-ac28-d6b84da5ce08"
+					(reference "SPI1")
 					(unit 1)
 				)
 			)
@@ -8134,6 +8270,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2718488"
+			(at 214.63 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e57ac423-db2a-405c-8772-c1ea59ed4293")
 		)
@@ -8229,90 +8374,6 @@
 			(project "drn2"
 				(path "/7bd3d39b-325c-42ab-ac28-d6b84da5ce08"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 171.45 107.95 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35591d7e-09c1-4e1a-9bcb-8d730c084a3e")
-		(property "Reference" "SPI1"
-			(at 170.815 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 170.815 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 171.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 171.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB BOM" "0"
-			(at 171.45 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "965c36d7-3a39-4bc3-96a6-1dfe0f68e493")
-		)
-		(pin "4"
-			(uuid "4d84c3dd-09a3-4ef5-b474-2f1cb393a376")
-		)
-		(pin "1"
-			(uuid "8d775830-6d6f-4cf2-a8ca-500489e1d948")
-		)
-		(pin "2"
-			(uuid "6d75b01a-5d7f-4c89-81d1-6a5db85711c0")
-		)
-		(instances
-			(project "drn2"
-				(path "/7bd3d39b-325c-42ab-ac28-d6b84da5ce08"
-					(reference "SPI1")
 					(unit 1)
 				)
 			)
@@ -8476,14 +8537,12 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 128.27 55.88 270)
-		(mirror x)
+		(at 125.73 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "41dffa3e-6cfa-40f9-b55a-09ee7767beda")
 		(property "Reference" "TOF1"
 			(at 127 50.8 90)
@@ -8502,7 +8561,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 128.27 55.88 0)
+			(at 125.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 55.88 0)
+			(at 125.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8579,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 128.27 55.88 0)
+			(at 125.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,7 +8588,7 @@
 			)
 		)
 		(property "JLCPCB BOM" "0"
-			(at 128.27 55.88 90)
+			(at 125.73 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,6 +9679,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C37593"
+			(at 179.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 179.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "6df5700d-d53f-4624-878d-5bf3d9b8865f")
 		)
@@ -10435,7 +10512,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49257"
+		(property "LCSC Part" "C541850"
 			(at 21.59 138.43 0)
 			(effects
 				(font
@@ -11492,7 +11569,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" "1"
+			(at 45.72 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2718488"
 			(at 45.72 74.93 90)
 			(effects
 				(font

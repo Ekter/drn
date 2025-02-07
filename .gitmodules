@@ -1,0 +1,3 @@
+[submodule "Drone-Camera-Control"]
+	path = Drone-Camera-Control
+	url = https://github.com/jaimealbapastor/Drone-Camera-Control
